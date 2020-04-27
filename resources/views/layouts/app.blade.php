@@ -130,11 +130,6 @@
                                     </div>
                                 </div>
 
-
-
-
-
-
                                 <!-- nav -->
                                 <nav class="nav-primary hidden-xs">
                                     <div class="text-muted text-sm hidden-nav-xs padder m-t-sm m-b-sm">Start</div>
@@ -146,8 +141,6 @@
                                                 <i class="i i-statistics icon"> </i>
                                                 <span class="font-bold">Overview</span> </a>
                                         </li>
-
-
 
                                         <li>
                                             <a href="#" class="auto">
@@ -237,8 +230,6 @@
                             <section class="vbox">
                                 <section class="scrollable padder">
 
-
-
                                     <section class="row m-b-md">
                                         <div class="col-sm-6">
                                             <h3 class="m-b-xs text-black">@yield('page-title')</h3>
@@ -255,16 +246,9 @@
                                                 </ul>
 
                                     </section>
-
-
                                     <div class="row">
                                         @yield('main-content')
                                     </div>
-
-
-
-
-
 
                                 </section>
                             </section>
@@ -278,8 +262,6 @@
         </section>
     </section>
     <!-- Bootstrap -->
-
-
 
     <!-- App -->
     <script src="{{asset('public/backend/js/app.v1.js')}}"></script>
